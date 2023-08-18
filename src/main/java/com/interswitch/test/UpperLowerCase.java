@@ -6,7 +6,8 @@ public class UpperLowerCase {
       String[] words = text.split(" ");
       return words[0].toUpperCase();
     }
-    throw new IllegalArgumentException("Text cannot be empty");
+    return "Text cannot be empty";
+//    throw new IllegalArgumentException("Text cannot be empty");
   }
 
   public String toLowerCase(String text) {
@@ -14,6 +15,7 @@ public class UpperLowerCase {
       String[] words = text.split(" ");
       return words[0].toLowerCase();
     }
-    throw new IllegalArgumentException("Text cannot be empty");
+    return "Text cannot be empty";
+//    throw new IllegalArgumentException("Text cannot be empty");
   }
 }

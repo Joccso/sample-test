@@ -8,10 +8,9 @@ public class App
   {
     ArithmeticOperations.userOperation();
 
-    UpperLowerCase upperCase = new UpperLowerCase();
-    System.out.println(upperCase.toUpperCase("Tgjagjkk hskjhkaj"));
-
-    UpperLowerCase lowerCase = new UpperLowerCase();
-    System.out.println(lowerCase.toLowerCase("Tgjagjkk hskjhkaj"));
+    UpperLowerCase upperLowerCase = new UpperLowerCase();
+    System.out.println(upperLowerCase.toUpperCase("Tgjagjkk hskjhkaj"));
+    System.out.println(upperLowerCase.toLowerCase("Tgjagjkk hskjhkaj"));
+    System.out.println(upperLowerCase.toLowerCase(""));
   }
 }
